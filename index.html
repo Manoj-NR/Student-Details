@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Student details </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="index.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1> Student Details </h1>
+
+  <form>
+
+    <div class="form-group">
+      <label>Name:</label>
+      <input type="text" name="name" class="form-control" placeholder="Name" required="">
+    </div>
+
+    <div class="form-group">
+      <label>Student Id:</label>
+      <input type="text" name="stid" class="form-control" placeholder="Student Id" required="">
+    </div>
+
+    <div class="form-group">
+      <label>Marks:</label>
+      <input type="text" name="marks" class="form-control" placeholder="Marks" required="">
+    </div>
+
+    <button type="submit" class="btn btn-success save-btn">Add</button>
+
+  </form>
+  <br/>
+  <table class="table table-bordered data-table">
+    <thead>
+      <h2>Table Contents</h2>
+      <th>Name</th>
+      <th>Student Id</th>
+      <th>Marks</th>
+      <th width="200px">Action</th>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+
+</div>
+
+
+<script src="index.js" charset="utf-8"></script>
+</body>
+</html>

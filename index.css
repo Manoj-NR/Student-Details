@@ -1,0 +1,23 @@
+body{
+  background-color: #45CCBC
+}
+
+h1{
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-left: 100px;
+}
+
+h2{
+  font-family: serif;
+  font-weight: bold;
+}
+
+.form-control{
+  width: 50rem;
+}
+
+.save-btn{
+  width: 50rem;
+  margin-top: 15px;
+}
